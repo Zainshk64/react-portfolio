@@ -38,7 +38,7 @@ const Hero = () => {
           </div>
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <a
-              href="../assets/Zain_Ejaz_Frontend_Developer_Resume.pdf"
+               href="../../public/Zain_Ejaz_Frontend_Developer_Resume.pdf"
               target='_blank'
               className="px-6 py-3 bg-cyan-500 text-white rounded-full font-semibold hover:bg-cyan-600 transition"
             >
