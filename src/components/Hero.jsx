@@ -39,10 +39,10 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center md:justify-start gap-4">
             <a
               href="../assets/Zain_Ejaz_Frontend_Developer_Resume.pdf"
-              download
+        
               className="px-6 py-3 bg-cyan-500 text-white rounded-full font-semibold hover:bg-cyan-600 transition"
             >
-              Download CV
+              View Resume
             </a>
             <a
               href="https://wa.me/+9203105312929?text=Hello,%20I%20would%20like%20to%20contact%20you!"
