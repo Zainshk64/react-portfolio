@@ -31,7 +31,7 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          Skills
+          Skill
         </motion.h2>
 
         <div className="grid gap-8 md:grid-cols-3">
