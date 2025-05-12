@@ -1,9 +1,22 @@
 @import "tailwindcss";
 
 .navbg{
-    background-color: #142850;
+    /* background-color: #142850; */
     box-shadow: -13px -19px 50px rgb(245, 244, 244);
 }
 .trans{
     transition: .2s linear;
+}
+
+/* scheme-light dark:scheme-dark */
+.border-g {
+  padding: 1px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image:
+    linear-gradient(black, black), /* Inner solid background */
+    linear-gradient(to right, cyan, darkcyan); /* Gradient border */
+  color: white;
 }

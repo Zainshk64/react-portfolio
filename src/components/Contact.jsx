@@ -4,7 +4,7 @@ import { Mail, MapPin, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-6 bg-[#1a374dd7]">
+    <section id="contact" className="py-16 px-6 bg-[#121212]">
       <div className="max-w-4xl mx-auto text-center">
         <motion.h2
           className="text-3xl md:text-4xl text-white font-bold mb-4"

@@ -5,7 +5,7 @@ import profile from "../assets/profile.jpg";
 
 const About = () => {
   return (
-    <section id="about" className="py-16 px-6 bg-[#27496D] text-white px-16">
+    <section id="about" className="py-16  bg-[#121212] text-black px-16">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
         <motion.div
           className="flex-1"
@@ -28,7 +28,7 @@ const About = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-2">About Me</h2>
+          <h2 className="text-3xl md:text-4xl bg-gradient-to-r from-cyan-400 to-gray-900 text-transparent bg-clip-text font-semibold mb-2">About Me</h2>
           <p className="text-gray-300 leading-relaxed">
             I'm a Frontend Developer with a strong grip on React.js and Tailwind CSS. I enjoy building responsive, user-friendly interfaces. I also have hands-on experience with Redux Toolkit, Flowbite, Material-UI, and basic React Native. Always eager to learn and grow by taking on new challenges.
           </p>

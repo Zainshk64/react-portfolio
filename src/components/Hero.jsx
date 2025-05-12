@@ -12,7 +12,7 @@ const Hero = () => {
   });
 
   return (
-    <section id="home" className="py-24  bg-[#142850] text-white pt-28 sm:pt-24 px-12 md:px-16">
+    <section id="home" className="py-24  bg-[#121212] text-white pt-28 sm:pt-32 px-12 md:px-16">
       <div className="max-w-7xl flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Text Content */}
         <motion.div
@@ -22,10 +22,10 @@ const Hero = () => {
           transition={{ duration: 0.6 }}
         >
           <h1 className="text-3xl sm:text-4xl font-bold mb-1">
-            Hello, It’s Me <span className="text-cyan-400">Zain Ejaz</span>
+            Hello, It’s Me <span className="text-cyan-500">Zain Ejaz</span>
           </h1>
           <h3 className="text-xl sm:text-2xl mb-6">
-            And I'm a <span className="text-cyan-400">{typeEffect}| </span>
+            And I'm a <span className="bg-gradient-to-r from-cyan-300 font-medium to-cyan-700 text-transparent bg-clip-text  ">{typeEffect}| </span>
           </h3>
           <p className="text-gray-300 mb-6 leading-relaxed">
             Passionate React developer with experience in Tailwind CSS, Redux Toolkit, and React Native basics. Creating clean, responsive, and interactive UI experiences.
@@ -39,13 +39,13 @@ const Hero = () => {
             <a
                href="/Zain_Ejaz_Frontend_Developer_Resume.pdf"
               target='_blank'
-              className="px-6 py-3 bg-cyan-500 text-white rounded-full font-semibold hover:bg-cyan-600 transition"
+              className="px-6 py-3 bg-gradient-to-r from-cyan-300 to-cyan-800 text-white rounded-full font-semibold hover:bg-gradient-to-r hover:from-cyan-300 hover:to-cyan-900 trans"
             >
               View Resume
             </a>
             <a
               href="https://wa.me/+9203105312929?text=Hello,%20I%20would%20like%20to%20contact%20you!"
-              className="px-6 py-3 border-2 border-cyan-500 text-white rounded-full font-semibold hover:bg-cyan-600 transition"
+              className="px-6 py-3 border-2 border-cyan-600 text-white rounded-full font-semibold hover:bg-gradient-to-l hover:from-cyan-300 hover:to-cyan-900 trans"
             >
               Contact Me
             </a>
