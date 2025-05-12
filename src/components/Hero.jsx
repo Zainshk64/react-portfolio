@@ -12,7 +12,7 @@ const Hero = () => {
   });
 
   return (
-    <section id="home" className="py-24  bg-[#121212] text-white pt-40 lg:h-screen px-12 md:px-16">
+    <section id="home" className="py-24  bg-[#121212] text-white pt-55 sm:pt-40 lg:h-screen px-7 md:px-16">
       <div className="max-w-5xl flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Text Content */}
         <motion.div

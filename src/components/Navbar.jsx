@@ -24,9 +24,9 @@ const Navbar = () => {
     }
   });
   return (
-    <nav ref={navRef} className="w-full md:px-12 backdrop-blur-[10px] transition-all ease-linear fixed p-2 top-0 left-0 z-50 bg- ">
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-cyan-400">Zain.dev</h1>
+    <nav ref={navRef} className="w-full md:px-12 backdrop-blur-[30px] transition-all ease-linear fixed p-2 top-0 left-0  z-10 ">
+      <div className="max-w-7xl mx-auto px-4 py-3 z-50 flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-cyan-400">Zain.dev</h1>
         <div className="hidden md:flex gap-6">
           {navLinks.map((link) => (
             <Link
@@ -35,7 +35,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               offset={-80}
-              className="cursor-pointer text-white hover:text-blue-500 transition-colors"
+              className="cursor-pointer text-lg text-white hover:text-cyan-400 transition-colors"
             >
               {link.name}
             </Link>
@@ -43,12 +43,12 @@ const Navbar = () => {
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white" >
-            {isOpen ? <X size={24} /> : <Menu size={24} />}
+            {isOpen ? <X size={24} className="absolute z-80 top-5 right-5 " /> : <Menu size={24} />}
           </button>
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden px-4 p-3 w-full pb-4 items-center trans flex flex-col gap-4  dark:bg-gray-900">
+        <div className="md:hidden navbg absolute top-0 w-full left-0 right-0 z-50 trans h-screen text-center justify-center items-center trans flex flex-col gap-4">
           {navLinks.map((link) => (
             <Link
               key={link.name}
@@ -56,7 +56,7 @@ const Navbar = () => {
               smooth={true}
               duration={500}
               onClick={() => setIsOpen(false)}
-              className="cursor-pointer text-white hover:text-blue-500"
+              className="cursor-pointer text-xxl text-white hover:text-cyan-400"
             >
               {link.name}
             </Link>
