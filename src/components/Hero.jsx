@@ -12,8 +12,8 @@ const Hero = () => {
   });
 
   return (
-    <section id="home" className="py-24  bg-[#121212] text-white pt-28 sm:pt-32 px-12 md:px-16">
-      <div className="max-w-7xl flex flex-col md:flex-row items-center justify-between gap-10">
+    <section id="home" className="py-24  bg-[#121212] text-white pt-40 lg:h-screen px-12 md:px-16">
+      <div className="max-w-5xl flex flex-col md:flex-row items-center justify-between gap-10">
         {/* Text Content */}
         <motion.div
           className="w-full md:w-1/2 text-center mb-4 md:text-left"
@@ -21,10 +21,10 @@ const Hero = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <h1 className="text-3xl sm:text-4xl font-bold mb-1">
+          <h1 className="text-3xl sm:text-5xl font-bold mb-1">
             Hello, It’s Me <span className="text-cyan-500">Zain Ejaz</span>
           </h1>
-          <h3 className="text-xl sm:text-2xl mb-6">
+          <h3 className="text-xl sm:text-3xl mb-6">
             And I'm a <span className="bg-gradient-to-r from-cyan-300 font-medium to-cyan-700 text-transparent bg-clip-text  ">{typeEffect}| </span>
           </h3>
           <p className="text-gray-300 mb-6 leading-relaxed">

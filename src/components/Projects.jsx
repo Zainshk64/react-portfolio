@@ -25,17 +25,8 @@ const projects = [
 const Projects = () => {
   return (
     <section className="py-16 px-14 md:px-16 bg-[#121212]" id="projects">
+  
       <div className="max-w-6xl mx-auto text-center">
-        <motion.h2
-          className="text-3xl md:text-4xl text-white font-bold mb-10"
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Projects
-        </motion.h2>
-
         <div className="grid mb-14 gap-8 trans md:grid-cols-3 my-5">
           {projects.map((project, index) => (
             <motion.div

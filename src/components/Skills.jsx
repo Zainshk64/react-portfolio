@@ -23,17 +23,11 @@ const skills = [
 const Skills = () => {
   return (
     <section id="skills" className="py-16 px-12 md:px-16 bg-[#121212] text-white">
+      <div className="text-center mb-20 pt-5 ">
+        <h2 className="text-3xl md:text-4xl text-cyan-400 font-semibold mb-2 uppercase ">SKills</h2>
+        <h3 className="text-white" >What <span className="bg-gradient-to-r from-cyan-400 to-gray-500 font-medium text-transparent bg-clip-text">I Know</span></h3>
+      </div>
       <div className="max-w-6xl mx-auto text-center">
-        <motion.h2
-          className="text-3xl md:text-4xl font-bold mb-10"
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-        >
-          Skill
-        </motion.h2>
-
         <div className="grid gap-8 md:grid-cols-3">
           {skills.map((skill, index) => (
             <motion.div
