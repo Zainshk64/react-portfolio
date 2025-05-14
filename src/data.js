@@ -60,15 +60,15 @@ export const projects = [
     img: imgburger,
     git: 'https://github.com/Zainshk64/burger'
   },
-   {
-    title: "First Ever Ui Design",
-    desc:
-      "After learnig HTML and CSS. Build a design by following figma ",
-    url: "https://zainshk64.github.io/proj3/",
-    cat: 'html-css',
-    img: firstui,
-    git: 'https://github.com/Zainshk64/proj3'
-  },
+  //  {
+  //   title: "First Ever Ui Design",
+  //   desc:
+  //     "After learnig HTML and CSS. Build a design by following figma ",
+  //   url: "https://zainshk64.github.io/proj3/",
+  //   cat: 'html-css',
+  //   img: firstui,
+  //   git: 'https://github.com/Zainshk64/proj3'
+  // },
   //  {
   //   title: "Netflix Simple Clone",
   //   desc:
