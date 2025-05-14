@@ -12,7 +12,7 @@ const About = () => {
       </div>
       <div className="flex flex-col md:flex-row items-start justify-center gap-10 ">
         <motion.div
-          className="max-w-xs rounded-xl shadow-2xl animate-pulse  shadow-cyan-500 sm:max-w-sm"
+          className="max-w-xs rounded-xl shadow-2xl  shadow-cyan-500 sm:max-w-sm"
           initial={{ opacity: 0, x: -10 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
@@ -21,7 +21,7 @@ const About = () => {
           <img
             src={profile}
             alt="About Me"
-            className="rounded-xl w-full mx-auto md:mx-0"
+            className="rounded-xl w-full animate-pulse mx-auto md:mx-0"
           />
         </motion.div>
 

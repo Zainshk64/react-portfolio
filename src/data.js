@@ -3,7 +3,6 @@ import imgbakery from './assets/bakery.png'
 import imgburger from './assets/burger.png'
 import firstui from './assets/firstui.png'
 import figma from './assets/figma.png'
-import coffee from './assets/coffee.png'
 import gym from './assets/gym.png'
 import reactgym from './assets/reactgym.png'
 import netli from './assets/netf.png'
@@ -11,6 +10,8 @@ import virtual from './assets/virtual.png'
 import r1 from './assets/r1.png'
 import educate from './assets/educate.png'
 import nexcent from './assets/nexcent.png'
+import hotel from './assets/hotel.png'
+
 
 
 
@@ -42,6 +43,15 @@ export const projects = [
     git: 'https://github.com/Zainshk64/bakery'
   },
    {
+    title: "Hotel Booking",
+    desc:
+      "Responsive Hotel website using react and tailwind-css. With User Authentication by Clerk. Focused on clean layout",
+    url: "https://hotel-bookingzain.vercel.app/",
+    cat: 'react-js',
+    img: hotel,
+    git: 'https://github.com/Zainshk64/hotel-booking',
+  },
+   {
     title: "Burger Shop Design",
     desc:
       "Build a responsive Burgur design using HTML and CSS. Diplayed product in grid form",
@@ -59,17 +69,17 @@ export const projects = [
     img: firstui,
     git: 'https://github.com/Zainshk64/proj3'
   },
-   {
-    title: "Netflix Simple Clone",
-    desc:
-      "Build a Fully responsive Netflix Ui with Firebase (Auth) using react and tailwind-css.",
-    url: "https://react-netfli-zs.netlify.app/",
-    cat: 'react-firebase',
-    img: netli,
-    git: 'https://app.netlify.com/teams/zshk599/sites',
-    mode: 'net'
+  //  {
+  //   title: "Netflix Simple Clone",
+  //   desc:
+  //     "Build a Fully responsive Netflix Ui with Firebase (Auth) using react and tailwind-css.",
+  //   url: "https://react-netfli-zs.netlify.app/",
+  //   cat: 'react-firebase',
+  //   img: netli,
+  //   git: 'https://app.netlify.com/teams/zshk599/sites',
+  //   mode: 'net'
 
-  },
+  // },
   {
     title: "Design Some Section of Figma",
     desc:
@@ -97,17 +107,17 @@ export const projects = [
     img: gym,
     git: 'https://github.com/Zainshk64/gym'
   },
-    {
-    title: "Planet Fitness",
-    desc:
-      "Build a Fully responsive GYM website with Firebase (Auth) using react and tailwind-css.",
-    url: "https://react-gym-zs.netlify.app/",
-    cat: 'react-firebase',
-    img: reactgym,
-    git: 'https://app.netlify.com/teams/zshk599/sites',
-    mode: 'net'
+  //   {
+  //   title: "Planet Fitness",
+  //   desc:
+  //     "Build a Fully responsive GYM website with Firebase (Auth) using react and tailwind-css.",
+  //   url: "https://react-gym-zs.netlify.app/",
+  //   cat: 'react-firebase',
+  //   img: reactgym,
+  //   git: 'https://app.netlify.com/teams/zshk599/sites',
+  //   mode: 'net'
 
-  },
+  // },
   
   {
     title: "VirtualIR Design",

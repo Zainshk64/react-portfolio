@@ -32,14 +32,17 @@ const Navbar = () => {
             <Link
               key={link.name}
               to={link.to}
+              spy={true}
               smooth={true}
-              duration={500}
               offset={-80}
+              duration={500}
+              activeClass="!text-cyan-400"
               className="cursor-pointer text-lg text-white hover:text-cyan-400 transition-colors"
             >
               {link.name}
             </Link>
           ))}
+
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white" >

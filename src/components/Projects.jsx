@@ -5,11 +5,35 @@ import { Github } from 'lucide-react';
 // import netlifyicon from '../assets/netlifyico.png'
 import netlifyicon from '../assets/netlifyico.webp'
 
+import pic1 from '../assets/app/1.jpg'
+import pic2 from '../assets/app/2.jpg'
+import pic3 from '../assets/app/3.jpg'
+import pic4 from '../assets/app/4.jpg'
+import pic5 from '../assets/app/5.jpg'
+import pic6 from '../assets/app/6.jpg'
+import pic7 from '../assets/app/7.jpg'
+import pic8 from '../assets/app/8.jpg'
+
+
+
+
+const Images = [
+  pic1,
+  pic2,
+  pic3,
+  pic5,
+  pic4,
+  pic6,
+  pic7,
+  pic8
+
+]
+
 
 
 const Projects = () => {
   const [categ, setcateg] = useState('All');
-  const tabs = ["All", 'html-css', "react-js", 'react-firebase'];
+  const tabs = ["All", 'html-css', "react-js", 'react-native'];
 
   const filterProj = projects.filter((item) => categ === "All"
     ? projects
@@ -70,16 +94,31 @@ const Projects = () => {
                     className="text-cyan-500 font-semibold hover:underline"
                   >
                     {
-                      project.mode === 'net' ? <img src={netlifyicon} className="invert"  width={30} alt="" /> : <Github />
+                      project.mode === 'net' ? <img src={netlifyicon} className="invert" width={30} alt="" /> : <Github />
                     }
-                    
+
                   </a>
                 </div>
               </div>
 
             </motion.div>
           ))}
+          
         </div>
+         {
+            categ === "react-native" &&
+            <div className="grid pb-10 scale-90 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5" >
+              {Images.map((image, index) => (
+                <img
+                  key={index}
+                  src={image}
+                  alt={`Gallery ${index + 1}`}
+                  className="object-cover h-full rounded-lg shadow-md"
+                />
+              ))}
+
+            </div>
+          }
 
         <span className="px-6 py-3 border-2 border-cyan-600 text-white rounded-full font-semibold hover:bg-cyan-600 trans">
           <a href="https://app.netlify.com/teams/zshk599/sites">
