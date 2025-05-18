@@ -33,8 +33,16 @@ const About = () => {
           viewport={{ once: true }}
         >
           <p className="text-gray-300 leading-relaxed">
-            I'm a passionate Frontend Developer with a solid foundation in <span className="text-cyan-500">React-JS</span>  and <span className="text-cyan-500">Tailwind-Css</span>, specializing in crafting modern, responsive, and accessible web interfaces. I take pride in transforming ideas into seamless user experiences through clean and efficient code.
-            My toolkit also includes hands-on experience with  <span className="text-cyan-500">Redux-Toolkit, Flowbite, Material-UI</span>, and a foundational understanding of <span className="text-cyan-500">React-Native</span> for mobile development.</p>
+            I'm a passionate Frontend Developer with a solid foundation in
+            <span className="text-cyan-500"> React.js </span> and
+            <span className="text-cyan-500"> Tailwind CSS</span>, specializing in crafting modern, responsive, and accessible web interfaces.
+            I take pride in transforming ideas into seamless user experiences through clean and efficient code.
+            Also includes hands-on experience with
+            <span className="text-cyan-500"> Flowbite</span>,
+            <span className="text-cyan-500"> Material UI</span>, and a foundational understanding of
+            <span className="text-cyan-500"> React Native</span> for mobile development, along with basic proficiency in
+            <span className="text-cyan-500"> Next.js</span> for building server-rendered and statically generated applications.
+          </p>
 
           <div className="space-y-3 text-sm sm:text-base">
             <div className="flex items-center gap-3">

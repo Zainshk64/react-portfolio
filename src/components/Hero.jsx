@@ -28,7 +28,7 @@ const Hero = () => {
             And I'm a <span className="bg-gradient-to-r from-cyan-300 font-medium to-cyan-700 text-transparent bg-clip-text  ">{typeEffect}| </span>
           </h3>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            Passionate React developer with experience in Tailwind CSS, Redux Toolkit, and React Native basics. Creating clean, responsive, and interactive UI experiences.
+            Passionate React developer with experience in Tailwind CSS, React Native basic, and a foundational understanding of Next.js. Skilled at building clean, responsive, and interactive user interfaces.
           </p>
           <div className="flex justify-center md:justify-start gap-4 mb-6">
             <a href="https://www.facebook.com/zainsheikh64?mibextid=ZbWKwL" className="text-2xl hover:text-cyan-400"><Facebook /></a>
