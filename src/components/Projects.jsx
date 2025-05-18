@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { projects } from "../data";
-import { Github } from 'lucide-react';
+import { Github, Globe } from 'lucide-react';
 // import netlifyicon from '../assets/netlifyico.png'
 import netlifyicon from '../assets/netlifyico.webp'
 
@@ -73,11 +73,11 @@ const Projects = () => {
               <div>
                 <img src={project.img} className="rounded-md h-40" alt="" />
               </div>
-              <div>
+              <div className="mb-6">
                 <h3 className="text-xl mt-5 font-semibold  mb-2">{project.title}</h3>
                 <div className="flex space-x-2 mb-4">
                   {Object.values(project.toolicon).map((icon, i) => (
-                    <img key={i} src={icon} alt={`tool-${i}`} className="h-8 w-8" />
+                    <img key={i} src={icon} alt={`tool-${i}`} className={`h-8 w-8 `} />
                   ))}
                 </div>
               </div>
@@ -86,9 +86,9 @@ const Projects = () => {
                 <a
                   href={project.url}
                   target="_blank"
-                  className="text-cyan-500 font-semibold hover:underline"
+                  className="text-cyan-500 inline-flex items-center gap-1 font-semibold hover:underline"
                 >
-                  Live Demo
+                  <Globe size={20}/>Live Demo
                 </a>
                 <a
                   href={project.git}

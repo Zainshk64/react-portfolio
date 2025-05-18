@@ -18,8 +18,7 @@ import html from './assets/html.webp'
 import next from './assets/nextjs.png'
 import tailwind from './assets/tailwind.png'
 import clerk from './assets/clerk.avif'
-
-
+import emailjs from './assets/email1.png'
 
 
 
@@ -35,12 +34,11 @@ import clerk from './assets/clerk.avif'
 export const projects = [ 
     {
     title: "Edusity",
-    toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+    toolicon:{  
+
       react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+      emailjs: emailjs
      },
     url: "https://react-educate-zs.netlify.app/",
     cat: 'react-js',
@@ -53,10 +51,6 @@ export const projects = [
     title: "Bake Shop Design",
    toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
       css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
      },
       url: "https://zainshk64.github.io/bakery/",
     cat: 'html-css',
@@ -65,12 +59,10 @@ export const projects = [
   },
    {
     title: "Hotel Booking",
-    toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+    toolicon:{  
       react: "https://img.icons8.com/color/48/react-native.png",
+      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
       clerk: clerk,
-      nextjs: next
      }, url: "https://hotel-bookingzain.vercel.app/",
     cat: 'react-js',
     img: hotel,
@@ -80,10 +72,7 @@ export const projects = [
     title: "Burger Shop Design",
     toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
       css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+
      }, url: "https://zainshk64.github.io/burger/",
     cat: 'html-css',
     img: imgburger,
@@ -113,10 +102,7 @@ export const projects = [
     title: "Design Some Section of Figma",
     toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
       css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+
      },url: "https://zainshk64.github.io/design1/index.html",
     cat: 'html-css',
     img: figma,
@@ -135,10 +121,6 @@ export const projects = [
     title: "GYM-FIT",
     toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
       css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
      },url: "https://zainshk64.github.io/gym/index.html",
     cat: 'html-css',
     img: gym,
@@ -158,12 +140,11 @@ export const projects = [
   
   {
     title: "VirtualIR Design",
-   toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+   toolicon:{  
+
       react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+
      }, url: "https://react-virtual-zs.netlify.app/",
     cat: 'react-js',
     img: virtual,
@@ -173,12 +154,9 @@ export const projects = [
   },
    {
     title: "Practice React Tailwind",
-    toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
+    toolicon:{  react: "https://img.icons8.com/color/48/react-native.png",
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+
      },url: "https://react-tailwind-zs.netlify.app/",
     cat: 'react-js',
     img: r1,
@@ -198,12 +176,9 @@ export const projects = [
 
   {
     title: "Nexcent",
-    toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
+    toolicon:{   react: "https://img.icons8.com/color/48/react-native.png",
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+
      },url: "https://react-nexcent-zs.netlify.app/",
     cat: 'react-js',
     img: nexcent,
@@ -213,12 +188,9 @@ export const projects = [
   },
   {
     title: "Food Corner",
-   toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
+   toolicon:{ 
+     nextjs: next,
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
      },url: "https://next-food-corner.vercel.app/",
     cat: 'next-js',
     img: foodnext,
@@ -227,12 +199,10 @@ export const projects = [
    {
     title: "Next-JS Portfolio",
     toolicon:{ 
-       html: "https://img.icons8.com/color/48/html-5--v1.png",
-      css: "https://img.icons8.com/color/48/css3.png",
+      
+      nextjs: next,
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      react: "https://img.icons8.com/color/48/react-native.png",
-      clerk: clerk,
-      nextjs: next
+
      },
      url: "https://next-portfolio-phi-smoky.vercel.app/",
     cat: 'next-js',

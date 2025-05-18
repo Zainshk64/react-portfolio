@@ -16,6 +16,7 @@ const Navbar = () => {
   ];
 
   const navRef = useRef();
+  
   window.addEventListener("scroll", () => {
     if (window.scrollY >= 80) {
       navRef.current.classList.add("navbg");
