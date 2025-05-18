@@ -33,7 +33,7 @@ const Images = [
 
 const Projects = () => {
   const [categ, setcateg] = useState('All');
-  const tabs = ["All", 'html-css', "react-js", 'react-native'];
+  const tabs = ["All", 'html-css', "react-js", 'react-native', 'next-js'];
 
   const filterProj = projects.filter((item) => categ === "All"
     ? projects
@@ -64,7 +64,7 @@ const Projects = () => {
           {filterProj.map((project, index) => (
             <motion.div
               key={index}
-              className="p-4 group text-white rounded-xl border border-cyan-900 text-left shadow hover:shadow-lg shadow-cyan-200 trans"
+              className="p-4 group flex flex-col justify-between text-white rounded-xl border border-cyan-900 text-left shadow hover:shadow-lg shadow-cyan-200 trans"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
@@ -73,52 +73,53 @@ const Projects = () => {
               <div>
                 <img src={project.img} className="rounded-md h-40" alt="" />
               </div>
-              <div >
-
+              <div>
                 <h3 className="text-xl mt-5 font-semibold  mb-2">{project.title}</h3>
-                <p className=" text-white text-sm opacity-60 mb-4">
-                  {project.desc}
-                </p>
-                {/* <p>Made with: {project.cat.toLocaleUpperCase()}</p> */}
-                <div className="flex items-center justify-between" >
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    className="text-cyan-500 font-semibold hover:underline"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href={project.git}
-                    target="_blank"
-                    className="text-cyan-500 font-semibold hover:underline"
-                  >
-                    {
-                      project.mode === 'net' ? <img src={netlifyicon} className="invert" width={30} alt="" /> : <Github />
-                    }
-
-                  </a>
+                <div className="flex space-x-2 mb-4">
+                  {Object.values(project.toolicon).map((icon, i) => (
+                    <img key={i} src={icon} alt={`tool-${i}`} className="h-8 w-8" />
+                  ))}
                 </div>
+              </div>
+
+              <div className="flex items-center justify-between" >
+                <a
+                  href={project.url}
+                  target="_blank"
+                  className="text-cyan-500 font-semibold hover:underline"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href={project.git}
+                  target="_blank"
+                  className="text-cyan-500 font-semibold hover:underline"
+                >
+                  {
+                    project.mode === 'net' ? <img src={netlifyicon} className="invert" width={30} alt="" /> : <Github />
+                  }
+
+                </a>
               </div>
 
             </motion.div>
           ))}
-          
-        </div>
-         {
-            categ === "react-native" &&
-            <div className="grid pb-10 scale-90 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5" >
-              {Images.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  alt={`Gallery ${index + 1}`}
-                  className="object-cover h-full rounded-lg shadow-md"
-                />
-              ))}
 
-            </div>
-          }
+        </div>
+        {
+          categ === "react-native" &&
+          <div className="grid pb-10 scale-90 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5" >
+            {Images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Gallery ${index + 1}`}
+                className="object-cover h-full rounded-lg shadow-md"
+              />
+            ))}
+
+          </div>
+        }
 
         <span className="px-6 py-3 border-2 border-cyan-600 text-white rounded-full font-semibold hover:bg-cyan-600 trans">
           <a href="https://app.netlify.com/teams/zshk599/sites">
