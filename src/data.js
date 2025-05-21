@@ -20,6 +20,10 @@ import tailwind from './assets/tailwind.png'
 import clerk from './assets/clerk.avif'
 import emailjs from './assets/email1.png'
 
+import nextshadcn from './assets/nextshadcn.png'
+import aceternity from './assets/aceternity.png'
+
+
 
 
 
@@ -46,6 +50,33 @@ export const projects = [
     git: 'https://app.netlify.com/teams/zshk599/sites',
     mode: 'net'
   }, 
+  {
+    title: "Next-JS Modern Design",
+    toolicon:{ 
+      
+      nextjs: next,
+      aceternity: aceternity,
+      shadcn: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEUAAAD///+bm5v6+vpzc3Ofn5+Wlpb09PR8fHz4+PiwsLBvb29NTU3w8PCLi4t6enpCQkJbW1tISEhTU1NlZWU4ODhnZ2cxMTHk5OSEhIQlJSVgYGBEREQ9PT0WFhbU1NSmpqazs7PQ0NAbGxuOjo6avM+PAAADtElEQVR4nO2d3XLiMAyFYwIEmqRsE9iG8rft9v2fcQfaDpGuduyTsdCc774ZnbHiI8sKLQpCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQogJzrkDmJbT+9Be9rmjmJA63PjIHcdkNGXwLbGvwg9vuWOZhOYuMHzmDmYK+vYuMCxyRzMBq3IkMGxyh4NnPtYX1rnDwbMSAoM/R1QCZ7njgSNTNDznjgfOwfsKdmvnAo+VEOgvRX+V3ldQClzmjgdOLTeZOnc8cJRN+EvRFynQX4qqFfRXqimB/g5MJ2n0/lJUVTL+VrDxLrCTpZq/FJUtizDPHQ8cdeD111hTNuEwRb37oHuj76VNrHLHA6eXNuHvNNF5F9h4N/q5fAf9XU5s5S7qr5LZeDd69mQena33Fdx5F3iS50F/pZq6m/BXbHfeBSof9Hc3wQPvo6NW0J/Ru0/RxvsuKobxPKao6sn4W8FGrqC/C1B1N+He6P0NArkfxnM/TrkBCDzvF8sXdGAoOkCKzm5/enlFxwYBMYz39P3HAzo4BCeAwKVll9lJgVEpOtqJL+j4klFtwyiBy9EDzKWpavxG5djT+AnW1hAxjCcEWqsVlA9GnSakwBYdYhrqHYw6D/4Rj6i26BiTQDSd5AoGW0UNYhhPCbRlhohhPJWiB3SMSSBaFmqj8idQHrnWtlJUTVlEBSdTdNihY0wC0fhVPmjr2IS3CWMC1QpG3fBKgWtb3+MjejLKB23toh3wRP9F+RsdYxKIYTy1gh06xiQQn7g+S4G2VhDxaY+sZEpjpwkpMGracCEeYcwmlA9GzYvKd7CyZROIYTwpcLAlEDFOqXZRWyla4wXa2kWPMjhAqdae0DEmgRjGM92TOQIESpsobR14ET0ZafTrBh1jEgdp9FHfD8pSrTVWycj3J6qSeaQDL8Do27/oGJNgT+Y/UC0LW+8gPkVLW7tojzd6Wz6IGMaTjd/WViXTA4xepbmtWrQBfOKqLl9snSZqwDilupuwZRPq4yzALmqsZVG8p6eoMnpjAothHF3UDIhM0dJWihbFeWwUiJaFrUrmygUr0NYueuNuZFEpqko1W3cT33ykrOBSCLS4glduEquoUk39ELKt+8ERb5+LuF96kCtozibSMX3gRTATAo2VagjO8h20NScDYS8U2jrwYhj3to0N44EYb6QuBRa97xS98lPRVrZ6MkBevw5exu4msNSXwfX/OCKEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCiAP+ATvIH0Tc4tsSAAAAAElFTkSuQmCC',
+  
+     tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+
+     },
+    url: "https://next-shadcn-fawn.vercel.app/",
+    cat: 'next-js',
+    img: nextshadcn,
+    git: 'https://github.com/Zainshk64/Next-Shadcn',
+  }, 
+     {
+    title: "Hotel Booking",
+    toolicon:{  
+      react: "https://img.icons8.com/color/48/react-native.png",
+      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+      clerk: clerk,
+     }, url: "https://hotel-bookingzain.vercel.app/",
+    cat: 'react-js',
+    img: hotel,
+    git: 'https://github.com/Zainshk64/hotel-booking',
+  },
 
   {
     title: "Bake Shop Design",
@@ -57,17 +88,7 @@ export const projects = [
     img: imgbakery,
     git: 'https://github.com/Zainshk64/bakery'
   },
-   {
-    title: "Hotel Booking",
-    toolicon:{  
-      react: "https://img.icons8.com/color/48/react-native.png",
-      tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      clerk: clerk,
-     }, url: "https://hotel-bookingzain.vercel.app/",
-    cat: 'react-js',
-    img: hotel,
-    git: 'https://github.com/Zainshk64/hotel-booking',
-  },
+
    {
     title: "Burger Shop Design",
     toolicon:{  html: "https://img.icons8.com/color/48/html-5--v1.png",

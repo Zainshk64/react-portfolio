@@ -15,10 +15,6 @@ const skills = [
     category: "Mobile ",
     items: ["React Native (Basic)"]
   },
-  {
-    category: "Next-JS",
-    items: ["Food Order UI (Next.js)", "Portfolio UI (Next.js + Next Themes)"]
-  }
 ];
 
 
