@@ -1,11 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Code2, Paintbrush, Smartphone } from "lucide-react";
 
 const skills = [
   {
     category: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Tailwind CSS", "Redux Toolkit"]
+    items: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Tailwind CSS"]
   },
   {
     category: "UI Libraries",
