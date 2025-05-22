@@ -14,14 +14,19 @@ import hotel from './assets/hotel.png'
 import foodnext from './assets/foodnext.png'
 import nextport from './assets/nextport.png'
 
-import html from './assets/html.webp'
+import html from './assets/html.png'
 import next from './assets/nextjs.png'
+// import nextnew from './assets/nextnew.png'
+
 import tailwind from './assets/tailwind.png'
 import clerk from './assets/clerk.avif'
 import emailjs from './assets/email1.png'
 
 import nextshadcn from './assets/nextshadcn.png'
 import aceternity from './assets/aceternity.png'
+import mi from './assets/mi.png'
+
+
 
 
 
@@ -42,7 +47,7 @@ export const projects = [
 
       react: "https://img.icons8.com/color/48/react-native.png",
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
-      emailjs: emailjs
+      emailjs: emailjs,
      },
     url: "https://react-educate-zs.netlify.app/",
     cat: 'react-js',
@@ -177,6 +182,8 @@ export const projects = [
     title: "Practice React Tailwind",
     toolicon:{  react: "https://img.icons8.com/color/48/react-native.png",
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+      mi: mi
+
 
      },url: "https://react-tailwind-zs.netlify.app/",
     cat: 'react-js',
@@ -199,6 +206,8 @@ export const projects = [
     title: "Nexcent",
     toolicon:{   react: "https://img.icons8.com/color/48/react-native.png",
       tailwind: "https://img.icons8.com/color/48/tailwind_css.png",
+      mi: mi
+
 
      },url: "https://react-nexcent-zs.netlify.app/",
     cat: 'react-js',
