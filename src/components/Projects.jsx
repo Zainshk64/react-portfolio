@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { projects } from "../data";
 import { Github, Globe } from 'lucide-react';
 // import netlifyicon from '../assets/netlifyico.png'
-import netlifyicon from '../assets/netlifyico.webp'
+import netlifyicon from '../assets/netlify.png'
 
 import pic1 from '../assets/app/1.jpg'
 import pic2 from '../assets/app/2.jpg'
@@ -96,7 +96,7 @@ const Projects = () => {
                   className="text-cyan-500 font-semibold hover:underline"
                 >
                   {
-                    project.mode === 'net' ? <img src={netlifyicon} className="invert" width={30} alt="" /> : <Github />
+                    project.mode === 'net' ? <img src={netlifyicon} className="" width={30} alt="" /> : <Github />
                   }
 
                 </a>
