@@ -88,7 +88,7 @@ const Projects = () => {
                   target="_blank"
                   className="text-cyan-500 inline-flex items-center gap-1 font-semibold hover:underline"
                 >
-                  <Globe size={20}/>Live Demo
+                  <Globe size={20} />Live Demo
                 </a>
                 <a
                   href={project.git}
@@ -121,11 +121,14 @@ const Projects = () => {
           </div>
         }
 
-        <span className="px-6 py-3 border-2 border-cyan-600 text-white rounded-full font-semibold hover:bg-cyan-600 trans">
-          <a href="https://app.netlify.com/teams/zshk599/sites">
-            View More Projects ↗
-          </a>
-        </span>
+        <div className="hover:-translate-y-2 trans">
+
+          <span className="px-6 py-3 border-2 border-cyan-600 text-white rounded-full font-semibold hover:bg-cyan-600 trans">
+            <a href="https://github.com/Zainshk64">
+              Preview Respository
+            </a>
+          </span>
+        </div>
       </div>
     </section>
   );

@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 const skills = [
   {
     category: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "React.js", "Next.js", "Tailwind CSS"]
+    items: ["HTML", "CSS", "Tailwind CSS", "Bootstrap","JavaScript", "React-Js", "Next-Js"]
   },
   {
     category: "UI Libraries",
-    items: ["Material UI", "Flowbite React", "Next Themes"]
+    items: ["Material UI", "Flowbite React", "Next Themes", "Shadcn-Ui", "Aceternity-Ui"]
   },
   {
     category: "Mobile ",
@@ -40,7 +40,7 @@ const Skills = () => {
         <h3 className="text-xl font-semibold text-cyan-400 mb-4">{skill.category}</h3>
         <div className="flex flex-wrap gap-2">
           {skill.items.map((item, i) => (
-            <span key={i} className="bg-cyan-700/30 text-sm px-3 py-1 rounded-full text-white border border-cyan-500">
+            <span key={i} className="bg-cyan-700/30 text-sm px-3 py-1 rounded-full text-white border border-cyan-600">
               {item}
             </span>
           ))}

@@ -38,8 +38,7 @@ const About = () => {
             <span className="text-cyan-500"> Tailwind CSS</span>, specializing in crafting modern, responsive, and accessible web interfaces.
             I take pride in transforming ideas into seamless user experiences through clean and efficient code.
             Also includes hands-on experience with
-            <span className="text-cyan-500"> Flowbite</span>,
-            <span className="text-cyan-500"> Material UI</span>, and a foundational understanding of
+            <span className="text-cyan-500"> Flowbite-React , Material UI, Shadcn-Ui</span>, and a foundational understanding of
             <span className="text-cyan-500"> React Native</span> for mobile development, along with basic proficiency in
             <span className="text-cyan-500"> Next.js</span> for building server-rendered and statically generated applications.
           </p>
