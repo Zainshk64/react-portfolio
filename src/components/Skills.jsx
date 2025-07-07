@@ -20,7 +20,7 @@ const skills = [
 const Skills = () => {
   return (
    <section id="skills" className="py-16 px-6 md:px-16 bg-[#121212] text-white">
-  <div className="text-center mb-16 pt-5">
+  <div className="text-center mb-16 pt-6">
     <h2 className="text-3xl md:text-4xl text-cyan-400 font-semibold mb-2 uppercase">Skills</h2>
     <h3 className="text-white">
       What <span className="bg-gradient-to-r from-cyan-400 to-gray-500 font-medium text-transparent bg-clip-text">I Know</span>
